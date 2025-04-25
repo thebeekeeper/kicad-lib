@@ -1,0 +1,229 @@
+(footprint "WL-SFTW_3528_PLCC4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SFTW SMT Full-color TOP LED Waterclear,</B><BR><BR>Size:3528, SMT, 4pins<BR>3.5x2.8x1.9mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "f2b5e059-38b9-4ba1-9635-88b1af74ae2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SFTW_3528_PLCC4"
+		(at 0 2.865 0)
+		(layer "F.Fab")
+		(uuid "fe6cfbcb-508c-45a3-8150-acbca4e2c87e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99bff497-9365-4d13-ac58-e0acb875a773")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54e6d9cd-e56f-4362-aa40-ee9ac0594f95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aace7af0-639b-423d-85d6-61c2313e026d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.5)
+		(end 0.4 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f96f9dc5-706a-45fd-b1ff-2c71768c5608")
+	)
+	(fp_line
+		(start -0.4 1.5)
+		(end 0.4 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77a18ff3-1b22-4987-98cb-4e0b1abc7c34")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 -1.7) (xy 2.5 -1.7) (xy 2.5 1.7) (xy -2.5 1.7)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "283b7998-a161-4d97-a503-ab3f044c8f0b")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end -1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d26db9e-8f73-4260-9d71-9ebdae5149c1")
+	)
+	(fp_line
+		(start -1.75 -0.65)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "684a1909-0127-4c1a-b3a8-5da261582a92")
+	)
+	(fp_line
+		(start -1.75 -0.65)
+		(end -1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b1a15c-847d-4cda-9a6c-16a9f1ceeb7c")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cab22677-9f1b-4ba7-877c-d9f0a9d0d259")
+	)
+	(fp_line
+		(start -1 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f32950f3-d316-4145-aff8-68ffb61c4bbb")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e17c43b-b2a4-4a28-96d2-93ff7bb4b267")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2eb44c4-9d14-4a32-8c68-b8ad3dfb97f0")
+	)
+	(fp_text user "+"
+		(at 3 -0.7 0)
+		(layer "F.SilkS")
+		(uuid "d46508d5-53ad-4c04-9045-b280af14a874")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 3 -0.7 0)
+		(layer "F.Fab")
+		(uuid "7396665e-bc2e-4903-884b-d6d424c170a7")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.55 -0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5c91b5ff-04b0-48df-97cf-92cc2e9d8c3b")
+	)
+	(pad "2" smd rect
+		(at 1.55 0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0189d509-96c4-42c8-ac22-d028942e4333")
+	)
+	(pad "3" smd rect
+		(at -1.55 -0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "026db81b-cb79-47b0-90c6-beb9fc484670")
+	)
+	(pad "4" smd rect
+		(at -1.55 0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f4b9a3a9-668d-47a2-a2c1-4067c41b83c7")
+	)
+	(model "${KICAD8_3RD_PARTY}/WL-SFTW_3528_PLCC4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
